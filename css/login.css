@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  .login-image{
+    width: 100px  !important;
+  }
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .login-button{
+    background-color: #0B963D !important;
+    color: white !important;
+  }  
+  .error {
+    border: 1px solid red !important;
+}
+.error-msg {
+    color: red !important;
+    font-size: 12px !important;
+    margin-top: 5px !important;
+}
+.redirect-to-login{
+  color: black;
+  text-decoration: none;
+}
+.redirect-to-login:hover{
+  text-decoration: underline;
+}
+  

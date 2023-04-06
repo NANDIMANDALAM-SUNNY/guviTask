@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .avatar{
+    width: 30px;
+}
+
+.register-link{
+    text-decoration: none;
+    color: white;
+}
+.register-link:hover{
+    text-decoration: none;
+    color: white;
+}
+.login-link{
+    text-decoration: none;
+    color: #0B963D;
+    margin: 0px 20px 0px 20px;
+}
+.login-link:hover{
+    text-decoration: none;
+    color: #0B963D;
+    margin: 0px 20px 0px 20px;
+}
+.card-image{
+    padding: 50px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Register Page</title>
+</head>
+<body>
+
+  <div class="container main">
+  <div class="row mx-auto">
+    <div class="col-md-6 col-sm-12">
+      <img  src="./assets/register.webp" class="img-fluid" alt="Responsive image" />
+    </div>
+    <div class="col-md-6 col-sm-12 mx-auto mt-5">
+        <div class="text-center">
+          <a href="./index.html">
+            <img  src="./assets/logoofGuvi.png" class="img-fluid" alt="Responsive image" />
+          </a>
+        </div>
+        <h1 class=" text-center mb-5 fw-bold fs-7 mt-3">Register</h1>
+
+        <form>
+            <div class="form-floating mb-4">
+                <input type="text" class="form-control" id="username" placeholder="username">
+                <div class="username-error error-msg"></div>
+                <label >username</label>
+              </div>
+          <div class="form-floating mb-4">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            <div class="email-error error-msg"></div>
+            <label >Email address</label>
+          </div>
+          <div class="form-floating mb-4">
+            <input type="password" class="form-control" id="password" placeholder="password">
+            <div class="password-error error-msg"></div>
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="d-grid">
+            <button type="button" class="btn register-button  text-uppercase fw-bold" id="register-btn">Register</button>
+          </div>
+          <hr />
+        <p class="text-center">Already registered User? <a class="redirect-to-login" href="login.html">Login here</a> </p>
+         
+        </form>
+    </div>
+  </div>
+</div>
+</body>
+<script src="./js/register.js"></script>
+
+</html>

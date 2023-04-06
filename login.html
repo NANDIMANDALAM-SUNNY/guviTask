@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+  <div class="container">
+  <div class="row mx-auto">
+    <div class="col-md-6 col-sm-12">
+      <img  src="./assets/login.webp" class="img-fluid" alt="Responsive image" />
+    </div>
+    <div class="col-md-6 col-sm-12 mx-auto mt-5">
+        <div class="text-center">
+          <a href="./index.html">
+            <img  src="./assets/logoofGuvi.png" class="img-fluid" alt="Responsive image" />
+          </a>
+        </div>
+      <h1 class=" text-center mb-5 fw-bold fs-7 mt-3">Welcome ..!</h1>
+          <form>
+            <div class="form-floating mb-5">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <div class="email-error error-msg"></div>
+              <label >Email address</label>
+            </div>
+            <div class="form-floating mb-5">
+              <input type="password" class="form-control" id="password" placeholder="password">
+              <div class="password-error error-msg"></div>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="d-grid">
+              <button type="button" class="btn login-button btn-login text-uppercase fw-bold" id="login-btn">login</button>
+            </div>
+            <hr />
+            <p class="text-center">Don’t have an account? <a class="redirect-to-login" href="register.html">Registere here</a> </p>
+          </form>
+    </div>
+  </div>
+</div>
+</body>
+<script src="./js/login.js"></script>
+</html>

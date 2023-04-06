@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* navbar */
+  .dropdown-toggle{
+    border: none !important;
+    background-color: white;
+  }
+  .dropdownMenuButton2{
+    border: none !important;
+  }
+  .dropleft{
+    margin-right: 330px;
+  }
+  #logout-btn{
+    margin-bottom: 0 !important;
+  }
+  .dropdown-item:hover{
+    cursor: pointer;
+  }
+.avatar{
+    width: 30px;
+}
+
+
+.profile-email{
+  color: #0B963D;
+}
+
+/*form */
+.form-data{
+  max-width: 300px;
+}
+.error {
+  border: 1px solid red;
+}
+.error-msg {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.update-button{
+  background-color: #0B963D !important;
+  color: white !important;
+}
+.update{
+  color: #0B963D;
+}
+/*  */
